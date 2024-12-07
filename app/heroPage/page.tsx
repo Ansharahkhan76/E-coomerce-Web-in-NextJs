@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronRight, SendHorizontal } from "lucide-react";
+import { ChevronRight} from "lucide-react";
 import Image from "next/image";
 import Countdown from "../Countdown/page";
 import { ArrowRight } from "lucide-react";
@@ -13,13 +13,10 @@ import { Watch } from "lucide-react";
 import { Laptop } from "lucide-react";
 import { Gamepad } from "lucide-react";
 import { Headphones } from "lucide-react";
-import { Truck } from "lucide-react";
 import { Bike } from "lucide-react";
 import { Headset } from "lucide-react";
 import { ShieldCheck } from 'lucide-react';
-import { SendHorizonal } from "lucide-react";
 import Footer from "../Footer/page";
-import Navbar from "../Navbar/page";
 
 
 function HeroPage(){
@@ -32,16 +29,16 @@ function HeroPage(){
                 <div className="w-[310px] hidden sm:block font-medium">
                     <div className="">
                <Link href="#WomenProducts"><div className="flex justify-between pr-5 cursor-pointer">
-                    <p>Women's Fashion </p><ChevronRight />
+                    <p>Women&apos;s Fashion </p><ChevronRight />
                     </div></Link>
                     <Link href="#MenProducts"><div className="flex pt-4 pr-5 justify-between cursor-pointer">
-                    <p>Men's Fashion </p><ChevronRight />
+                    <p>Men&apos;s Fashion </p><ChevronRight />
                     </div></Link>
                     <p  className=" pt-4">Electronics</p>
                     <p className=" pt-4">Home & LifeStyle</p>
                     <p className=" pt-4">Medicine</p>
                     <p className=" pt-4">Sports & Outdoor</p>
-                    <p  className=" pt-4">Baby's & Toys</p>
+                    <p  className=" pt-4">Baby&apos; & Toys</p>
                     <p className=" pt-4">Groceries & Pets</p>
                     <p className=" pt-4">Health & Beauty</p>
                     </div>
@@ -101,7 +98,7 @@ function HeroPage(){
 
             <div className="flex pl-4 ">
             <div className="border-2 px-3 bg-red-600 h-10 w-6 rounded-lg"></div>
-            <p className="text-red-600 align-center pt-2 md:pl-4 pl-3 font-semibold">Today's</p>
+            <p className="text-red-600 align-center pt-2 md:pl-4 pl-3 font-semibold">Today&apos;s</p>
             </div>
         </div>
 
@@ -817,7 +814,7 @@ function HeroPage(){
             {/* Right Top */}
             <div className="bg-black h-auto md:h-[284px] flex flex-col md:flex-row justify-between">
                 <div className="pl-12 pt-8 md:pt-[138px] w-full md:w-[255px] h-auto md:h-[122px]">
-                    <p className="font-semibold text-xl">Women’s Collections</p>
+                    <p className="font-semibold text-xl">Women&apos;s Collections</p>
                     <p className="font-medium text-base">Featured woman collections that give you another vibe.</p>
                     <button className="font-medium pt-4 gap-4 flex text-white">Shop Now <ArrowRight /></button>
                 </div>

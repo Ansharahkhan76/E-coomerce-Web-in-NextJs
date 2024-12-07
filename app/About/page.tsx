@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Navbar from "../Navbar/page";
 import Footer from "../Footer/page";
 import { Store, CircleDollarSign, Crown, HandCoins, Bike, Headset, ShieldCheck } from "lucide-react";

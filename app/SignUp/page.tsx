@@ -1,8 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import Navbar from "../Navbar/page";
 import Footer from "../Footer/page";
-import { LogIn } from "lucide-react";
 
 export default function SignUp() {
   return (

@@ -2,7 +2,6 @@ import Link from "next/link";
 import Navbar from "../Navbar/page";
 import Footer from "../Footer/page";
 import Image from "next/image";
-import { Heart } from "lucide-react";
 import { Eye } from "lucide-react";
 import { Star } from "lucide-react";
 import { Trash2 } from "lucide-react";
